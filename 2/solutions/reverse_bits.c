@@ -5,18 +5,21 @@ typedef unsigned int Word; // size = 32 bits
 
 Word reverseBits(Word w) {
     Word result = 0;
+    // bit that we are up to.
     int i = 0;
+
     while (i < 32) {
-
-        int isOn = (w & (1 << i)); // & => get
-
+        Word mask = 1 << i;
+        Word isOn = w & mask;
         if (isOn) {
-            result = result | (1 << (31 - i)); // | => put
+            result = result | (1 << (31 - i));
         }
 
         i++;
     }
+
     return result;
+
 }
 
 // testing

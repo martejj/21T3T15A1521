@@ -308,7 +308,7 @@ Binary | Octal | Hexadecimal
 
 <details>
 
-`0x5554` 
+`0xAAAB`
 
 <summary> Answer </summary>
 
