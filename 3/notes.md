@@ -77,7 +77,7 @@ Decimal | Positive | Negative
 
 ---
 
-## Q2 - Convert the following 16-bit hex into two's complement integers.
+## Q3 - Convert the following 16-bit hex into two's complement integers.
 
 <details>
 
