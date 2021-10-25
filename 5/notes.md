@@ -117,7 +117,7 @@ Write a C program that loops over a given array and adds 42 to any number below 
 
 ---
 
-## Q8 - swap_half.c
+## Q10 - swap_half.c
 
 Write a MIPS program that swaps all 5 of the first numbers in an array with the numbers in the second half.
 
