@@ -6,6 +6,8 @@ Today we will cover:
 
 <br>
 
+---
+
 ## Q2 - We say that the Unix filesystem is tree-structured, with the directory called / as the root of the tree, e.g.,
 
 ### a - What is the full pathname of COMP1521's web directory?
@@ -79,6 +81,8 @@ Symbolic links produce a graph because they allow arbitrary links between filesy
 </details>
 
 <br>
+
+---
 
 ## Q3 - The stat() and lstat() functions both take an argument which is a pointer to a struct stat object, and fill it with the meta-data for a named file.
 
