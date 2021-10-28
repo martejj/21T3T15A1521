@@ -7,7 +7,7 @@ Today we will be covering:
 * Quick recap of 2D Arrays in MIPS
 * structs in MIPS
 * Functions in MIPS
-* For more details on 2D arrays I made a recording with another class under 'W09A (Wed) Week: 1-5,7-10 Harrison Steyn+Abiram Nadarajah / recording_6' on blackboard
+* For more revision on 2D arrays I made a recording with another class under 'W09A (Wed) Week: 1-5,7-10 Harrison Steyn+Abiram Nadarajah / recording_6' on blackboard
 
 <br>
 
@@ -22,7 +22,7 @@ Today we will be covering:
 <br>
 
 ```c
-    int numbers = {1, 2, 3, 4, 5, 6, 7};
+    int *numbers = {1, 2, 3, 4, 5, 6, 7};
     int a = numbers[i]; // Simplify this line
 ```
 
@@ -39,7 +39,7 @@ Today we will be covering:
 <br>
 
 ```c
-    char characters = {'a', 'b', 'c', 'd', 'e', 'f', 'g'};
+    char *characters = {'a', 'b', 'c', 'd', 'e', 'f', 'g'};
     characters[i] = 'z'; // Simplify this line
 ```
 
