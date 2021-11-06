@@ -33,7 +33,7 @@ void process_file(char *c_file) {
 }
 
 
-#define C_COMPILER "/usr/local/bin/dcc"
+#define C_COMPILER "/usr/bin/gcc"
 
 // compile a C file
 void compile(char *c_file, char *binary) {
